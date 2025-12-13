@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme {
+  --font-display: "sans-serif";
+
+  --color-agrios: #4CAF50
+}

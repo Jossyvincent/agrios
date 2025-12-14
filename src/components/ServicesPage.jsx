@@ -1,9 +1,9 @@
 const ServicesPage = () => {
   return (
-    <section className="relative h-screen py-20 md:py-28 mb-4">
-      <div className="container mx-auto px-6 lg:px-12 max-w-7xl pb-12">
+    <section className="relative min-h-screen">
+      <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
         {/* header */}
-        <div className="text-center mb-16 ">
+        <div className="text-center mb-16">
           <p className="text-yellow-500 font-semibold tracking-wider mb-3">
             Our Services
           </p>
@@ -12,7 +12,7 @@ const ServicesPage = () => {
           </h2>
         </div>
         {/* cards grid */}
-        <div className="grid md:grid-cols-3 gap-8 lg:gap-12 pb-2">
+        <div className="grid md:grid-cols-3 gap-8 lg:gap-12 ">
           {/* card1 */}
           <div className="rounded-3xl bg-white shadow-2xl p-2">
             <div className="relative mb-2">

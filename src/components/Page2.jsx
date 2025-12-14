@@ -1,6 +1,6 @@
 const Page2 = () => {
   return (
-    <section className="relative h-screen py-16 md:py-24 lg:py-32 mb-4 overflow-hidden">
+    <section className="relative min-h-screen py-10 md:py-16 lg:py-20">
       <div className="container mx-auto px-6 lg:px-12 max-w-7x">
         <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* left column */}

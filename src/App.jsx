@@ -4,6 +4,7 @@ import Page2 from "./components/Page2";
 import ServicesPage from "./components/ServicesPage";
 import FAQ from "./components/FAQ";
 import Footer from "./components/Footer";
+import MeetFarmers from "./components/MeetFarmers";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Page2 />
       <ServicesPage />
       <FAQ />
+      <MeetFarmers/>
       <Footer />
     </>
   );

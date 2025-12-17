@@ -6,6 +6,8 @@ const Page1 = () => {
         alt="background image"
         className="absolute inset-0 h-full w-full object-cover"
       />
+      {/* Overlay for contrast */}
+      <div className="absolute inset-0 bg-black/50"></div>
       <div className="relative z-10 text-center px-6 max-w-4xl mx-auto">
         <h1 className="text-5xl md:text-7xl font-bold text-white leading-tight mb-6">
           Natural Products

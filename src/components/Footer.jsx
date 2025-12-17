@@ -18,10 +18,10 @@ const Footer = () => {
             the majority suffered.
           </p>
           <div className="flex gap-4">
-            <FaSquareXTwitter className="my-0 mx-[5px] cursor-pointer" />
-            <FaFacebook className="my-0 mx-[5px] cursor-pointer" />
-            <FaInstagram className="my-0 mx-[5px] cursor-pointer" />
-            <FaLinkedinIn className="my-0 mx-[5px] cursor-pointer" />
+            <FaSquareXTwitter className="cursor-pointer text-xl" />
+            <FaFacebook className="cursor-pointer text-xl" />
+            <FaInstagram className="cursor-pointer text-xl" />
+            <FaLinkedinIn className="cursor-pointer text-xl" />
           </div>
         </div>
         {/* Explore*/}

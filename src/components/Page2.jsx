@@ -1,8 +1,8 @@
 const Page2 = () => {
   return (
     <section className="relative min-h-screen py-10 md:py-16 lg:py-20">
-      <div className="container mx-auto px-6 lg:px-12 max-w-7x">
-        <div className="grid lg:grid-cols-2 gap-12 lg:gap-20 items-center">
+      <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 lg:gap-20 items-center">
           {/* left column */}
           <div className="order-2 lg:order-1">
             <p className="text-yellow-500 font-medium tracking-wider uppercase mb-4">

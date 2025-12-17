@@ -1,8 +1,8 @@
 const FAQ = () => {
   return (
-    <section className="screen h-screen mb-4 py-20 md:py-28">
+    <section className="py-10 md:py-16 lg:py-24">
       <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
-        <div className="grid grid-cols-2 gap-12 items-center mb-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 items-center mb-10">
           {/* right */}
           <div className="relative rounded-3xl shadow-2xl max-w-md mx-auto">
             <img
@@ -101,7 +101,7 @@ const FAQ = () => {
             </div>
           </div>
         </div>
-        <div className="grid lg:grid-cols-2 py-4 mx-auto mb-5">
+        <div className="grid grid-cols-1 lg:grid-cols-2 py-4 mx-auto mb-5">
           {/* right side */}
           <div>
             <h2 className="text-yellow-400 text-2xl lg:text-3xl mb-2 font-semibold">Our Recent work</h2>

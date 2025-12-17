@@ -1,6 +1,6 @@
 const ServicesPage = () => {
   return (
-    <section className="relative min-h-screen">
+    <section className="relative min-h-screen py-10 md:py-16 lg:py-24">
       <div className="container mx-auto px-6 lg:px-12 max-w-7xl">
         {/* header */}
         <div className="text-center mb-16">

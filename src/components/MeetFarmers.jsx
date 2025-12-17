@@ -2,7 +2,7 @@ import FarmerCard from "./FarmCard";
 
 const farmers = [
   {
-    Name: "Effie Thiancy",
+    Name: "Whiteman",
     role: "farmer",
     image: "https://images.pexels.com/photos/2381069/pexels-photo-2381069.jpeg",
   },
@@ -19,7 +19,7 @@ const farmers = [
 ];
 const MeetFarmers = () => {
   return (
-    <section className="py-20 bg-white">
+    <section className="py-10 md:py-16 lg:py-24 bg-white">
       <div className="max-w-7xl mx-auto px-6">
         {/* header */}
         <div className="text-center mb-14">
